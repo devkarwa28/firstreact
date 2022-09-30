@@ -1,14 +1,14 @@
 import React from "react";
-import Header from './Header';
-import CardsHome from './Cards-home';
-import Challenging from './Challenging';
-import WhatPeople from './WhatPeople';
-import Logos from './Logos';
-import RecentProject from './RecentProjects';
-import Counter from './Counter';
-import OurProjects from './OurProjects';
-import GetFree from './GetFree';
-import Footer from './Footer';
+import Header from "./home/Header";
+import CardsHome from './home/Cards-home';
+import Challenging from './home/Challenging';
+import WhatPeople from './home/WhatPeople';
+import Logos from './global/Logos';
+import RecentProject from './home/RecentProjects';
+import Counter from './home/Counter';
+import OurProjects from './home/OurProjects';
+import GetFree from './global/GetFree';
+import Footer from './global/Footer';
 
 function Home() {
     return (

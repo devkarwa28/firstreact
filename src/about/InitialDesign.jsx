@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from './images/about-1.png'
+import img1 from '../images/about-1.png'
 
 function InitialDesign(){
     return(

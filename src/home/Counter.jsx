@@ -5,7 +5,7 @@ function Counter(){
         <section className="container-fluid section6">
         <div className="container">
             <div className="row">
-                <div className="col-md-6 col-lg-3 border-right">
+                <div className=" col-md-6 col-lg-3 border-right">
                     <h1 className="count">12</h1>
                     <p>Years Of Experiance</p>
                 </div>

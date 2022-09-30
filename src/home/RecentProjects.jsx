@@ -1,9 +1,9 @@
 import React from "react";
-import img1 from './images/sec5-1.png';
-import img2 from './images/sec5-2.png';
-import img3 from './images/sec5-3.png';
-import img4 from './images/sec5-4.png';
-import right from './images/chevron-right.svg';
+import img1 from '../images/sec5-1.png';
+import img2 from '../images/sec5-2.png';
+import img3 from '../images/sec5-3.png';
+import img4 from '../images/sec5-4.png';
+import right from '../images/chevron-right.svg';
 
 function RecentProject(){
     return(

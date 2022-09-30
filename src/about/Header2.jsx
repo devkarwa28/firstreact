@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import img1 from './images/Group 1.svg';
+import img1 from '../images/Group 1.svg';
 
 function Header2() {
     return (

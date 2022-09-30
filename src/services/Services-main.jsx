@@ -1,8 +1,8 @@
 import React from "react";
-import img1 from './images/services1.png';
-import img2 from './images/services2.png';
-import vector1 from './images/Vector1.svg';
-import vector2 from './images/vector2.svg';
+import img1 from '../images/services1.png';
+import img2 from '../images/services2.png';
+import vector1 from '../images/Vector1.svg';
+import vector2 from '../images/vector2.svg';
 
 function ServicesMain(){
     return(

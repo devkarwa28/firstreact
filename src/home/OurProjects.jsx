@@ -1,11 +1,11 @@
 import React from "react";
-import img1 from './images/sec7-1.png';
-import img2 from './images/sec7-2.png';
-import img3 from './images/sec7-3.png';
-import img4 from './images/sec7-4.png';
-import img5 from './images/sec7-5.png';
-import img6 from './images/sec7-6.png';
-import right from './images/chevron-right-black.svg'
+import img1 from '../images/sec7-1.png';
+import img2 from '../images/sec7-2.png';
+import img3 from '../images/sec7-3.png';
+import img4 from '../images/sec7-4.png';
+import img5 from '../images/sec7-5.png';
+import img6 from '../images/sec7-6.png';
+import right from '../images/chevron-right-black.svg'
 
 function OurProjects() {
     return (

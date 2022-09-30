@@ -1,6 +1,6 @@
 import React from "react";
-import img1 from './images/phone-call.svg';
-import img2 from './images/sec2-img.png';
+import img1 from '../images/phone-call.svg';
+import img2 from '../images/sec2-img.png';
 
 function Challenging(){
     return(

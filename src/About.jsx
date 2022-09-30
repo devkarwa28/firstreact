@@ -1,12 +1,12 @@
 import React from "react";
-import Header2 from "./Header2";
-import InitialDesign from "./InitialDesign";
-import EndResult from "./EndResult";
-import MeetTeam from "./MeetTeam";
-import Logos from "./Logos";
-import Forum from "./Forum";
-import Quoute from "./Quoute";
-import Footer from "./Footer";
+import Header2 from "./about/Header2";
+import InitialDesign from "./about/InitialDesign";
+import EndResult from "./about/EndResult";
+import MeetTeam from "./about/MeetTeam";
+import Logos from "./global/Logos";
+import Forum from "./about/Forum";
+import Quoute from "./about/Quoute";
+import Footer from "./global/Footer";
 
 
 function About(){

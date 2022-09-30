@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from './images/quoute.png'
+import img1 from '../images/quoute.png'
 
 function Quoute(){
     return(

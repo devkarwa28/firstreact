@@ -1,7 +1,7 @@
 import React from "react";
-import Header5 from "./Header5";
-import ContactUsMain from "./ContactUs-main";
-import Footer from "./Footer";
+import Header5 from "./contact/Header5";
+import ContactUsMain from "./contact/ContactUs-main";
+import Footer from "./global/Footer";
 
 function ContactUs(){
     return(

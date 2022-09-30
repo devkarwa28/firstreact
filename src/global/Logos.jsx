@@ -1,6 +1,6 @@
 import React from "react";
-import img1 from './images/home.png';
-import img2 from './images/nature.png';
+import img1 from '../images/home.png';
+import img2 from '../images/nature.png';
 import Slider from "react-slick";
 
 function Logos(){
@@ -10,17 +10,17 @@ function Logos(){
         autoplay: true,
         speed: 2000,
         autoplaySpeed: 2000,
-        cssEase: "linear",
         slidesToShow: 5,
         slidesToScroll: 1,
         responsive: [
             {
               breakpoint: 1024,
               settings: {
-                slidesToShow: 5,
+                slidesToShow: 3,
                 slidesToScroll: 1,
                 infinite: true,
-                dots: true
+                speed: 2000,
+                dots: false
               }
             },
             {

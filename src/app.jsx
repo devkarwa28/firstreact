@@ -7,7 +7,9 @@ import ContactUs from './ContactUs';
 import { Route, Routes } from 'react-router-dom';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import "./reponsive.css";
+import "./css/reponsive.css";
+import './css/style.css';
+import "./css/main.css";
 
 
 function App() {

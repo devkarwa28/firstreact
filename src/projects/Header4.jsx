@@ -1,15 +1,17 @@
 import React from "react";
-import { Link } from 'react-router-dom';
-import img1 from './images/Group 1.svg';
+import { Link } from "react-router-dom";
+import img1 from '../images/Group 1.svg';
 
-function Header3() {
+function Header4() {
     return (
         <header class="container-fluid px-0">
             <div class="bg-header-services">
                 <div class="overlay">
+
                     <nav class="container-fluid">
                         <div class="container d-flex justify-content-between">
-                            <Link exact to='/'><img src={img1} alt="" /></Link>
+                            <a href="index.html"><img src={img1} alt="" /></a>
+
                             <div class="offcanvas-btn d-lg-none d-xl-none">
                                 <button class="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
                                     aria-controls="offcanvasExample">
@@ -32,6 +34,7 @@ function Header3() {
                                             <li> <Link to='/services' className="color-a"> Services</Link></li>
                                             <li><Link to='/projects' className="color-a">Projects</Link></li>
                                             <li><Link to='/contactus' className="color-a">Contact Us</Link></li>
+
                                         </ul>
 
                                     </div>
@@ -48,8 +51,8 @@ function Header3() {
                     </nav>
                     <div class="header-content-about">
                         <div class="container">
-                            <h1>Services</h1>
-                            <span> <Link exact to='/'>Home</Link> &nbsp; / <Link to='/services'>Services</Link> </span>
+                            <h1>Our Projects</h1>
+                            <span><Link to='/'>Home</Link>&nbsp; / <Link to='/projects'>Projects</Link> </span>
                         </div>
                     </div>
 
@@ -58,4 +61,4 @@ function Header3() {
         </header>
     )
 }
-export default Header3;
+export default Header4;

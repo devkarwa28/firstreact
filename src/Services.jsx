@@ -1,9 +1,9 @@
 import React from "react";
-import CardsServices from "./Cards-services";
-import ServicesMain from "./Services-main";
-import GetFree from "./GetFree";
-import Footer from "./Footer";
-import Header3 from "./Header3";
+import CardsServices from "./services/Cards-services";
+import ServicesMain from "./services/Services-main";
+import Header3 from "./services/Header3";
+import GetFree from "./global/GetFree";
+import Footer from "./global/Footer";
 
 
 

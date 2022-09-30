@@ -1,8 +1,8 @@
 import React from "react";
-import img1 from './images/team1.png';
-import img2 from './images/team2.png';
-import img3 from './images/team3.png';
-import img4 from './images/team4.png';
+import img1 from '../images/team1.png';
+import img2 from '../images/team2.png';
+import img3 from '../images/team3.png';
+import img4 from '../images/team4.png';
 
 function MeetTeam(){
     return(

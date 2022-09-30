@@ -1,31 +1,32 @@
 import React from "react";
-import img1 from './images/Group 1.svg'
-import { Link } from "react-router-dom";
-function Header5() {
+import { Link } from 'react-router-dom';
+import img1 from '../images/Group 1.svg';
+
+function Header3() {
     return (
-        <header className="container-fluid px-0">
-            <div className="bg-header-services">
-                <div className="overlay">
-                    <nav className="container-fluid">
-                        <div className="container d-flex justify-content-between">
-                            <Link to='/'><img src={img1} alt="" /></Link>
-                            <div className="offcanvas-btn d-lg-none d-xl-none">
-                                <button className="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+        <header class="container-fluid px-0">
+            <div class="bg-header-services">
+                <div class="overlay">
+                    <nav class="container-fluid">
+                        <div class="container d-flex justify-content-between">
+                            <Link exact to='/'><img src={img1} alt="" /></Link>
+                            <div class="offcanvas-btn d-lg-none d-xl-none">
+                                <button class="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
                                     aria-controls="offcanvasExample">
-                                    <i className="fa-solid fa-bars"></i>
+                                    <i class="fa-solid fa-bars"></i>
                                 </button>
 
-                                <div className="offcanvas offcanvas-start w-80" tabindex="-1" id="offcanvasExample"
+                                <div class="offcanvas offcanvas-start w-75" tabindex="-1" id="offcanvasExample"
                                     aria-labelledby="offcanvasExampleLabel">
-                                    <div className="offcanvas-header">
-                                        <h5 className="offcanvas-title" id="offcanvasExampleLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">
                                             <img src={img1} alt="" />
                                         </h5>
-                                        <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                                             aria-label="Close"></button>
                                     </div>
-                                    <div className="offcanvas-body">
-                                        <ul className="p-0">
+                                    <div class="offcanvas-body">
+                                        <ul class="p-0">
                                             <li> <Link to='/' className="color-a">Home</Link> </li>
                                             <li> <Link to='/about' className="color-a">About Us</Link> </li>
                                             <li> <Link to='/services' className="color-a"> Services</Link></li>
@@ -36,7 +37,7 @@ function Header5() {
                                     </div>
                                 </div>
                             </div>
-                            <ul className="p-0 sm-none md-none">
+                            <ul class="p-0 sm-none md-none">
                                 <li> <Link to='/' className="color-a">Home</Link> </li>
                                 <li> <Link to='/about' className="color-a">About Us</Link> </li>
                                 <li> <Link to='/services' className="color-a"> Services</Link></li>
@@ -45,10 +46,10 @@ function Header5() {
                             </ul>
                         </div>
                     </nav>
-                    <div className="header-content-about">
-                        <div className="container">
-                            <h1>Contact Us</h1>
-                            <span><Link to='/'>Home</Link>&nbsp; / <Link to='/contactus'>Contact Us</Link></span>
+                    <div class="header-content-about">
+                        <div class="container">
+                            <h1>Services</h1>
+                            <span> <Link exact to='/'>Home</Link> &nbsp; / <Link to='/services'>Services</Link> </span>
                         </div>
                     </div>
 
@@ -57,4 +58,4 @@ function Header5() {
         </header>
     )
 }
-export default Header5;
+export default Header3;

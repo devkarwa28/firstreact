@@ -1,11 +1,11 @@
 import React from "react";
-import img1 from './images/email.svg';
-import img2 from './images/call.svg';
-import img3 from './images/earth.svg';
-import facebook from './images/facebook.svg';
-import twitter from './images/twitter.svg';
-import linkedIn from './images/linkedin.svg';
-import instagram from './images/instagram.svg';
+import img1 from '../images/email.svg';
+import img2 from '../images/call.svg';
+import img3 from '../images/earth.svg';
+import facebook from '../images/facebook.svg';
+import twitter from '../images/twitter.svg';
+import linkedIn from '../images/linkedin.svg';
+import instagram from '../images/instagram.svg';
 
 
 

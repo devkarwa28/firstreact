@@ -1,9 +1,8 @@
 import React from 'react';
-import './style.css';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './index-res.css';
-import img1 from './images/Group 1.svg';
+
+import img1 from '../images/Group 1.svg';
 
 
 function Header() {

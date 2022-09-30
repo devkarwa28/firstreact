@@ -1,8 +1,8 @@
 import React from "react";
-import Header4 from "./Header4";
-import Footer from "./Footer";
-import GetFree from "./GetFree";
-import ProjectsCards from "./Projects-cards";
+import Header4 from "./projects/Header4";
+import Footer from "./global/Footer";
+import GetFree from "./global/GetFree";
+import ProjectsCards from "./projects/Projects-cards";
 
 function Projects(){
     return(
