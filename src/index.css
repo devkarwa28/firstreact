@@ -33,7 +33,9 @@
   padding-top: 6px;
   margin-left: 16px;
 }
-
+.slick-slider{
+  width: 100% !important;
+}
 .sec3-card span {
   width: 118px;
   height: 26px;

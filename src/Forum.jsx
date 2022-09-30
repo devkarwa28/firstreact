@@ -1,6 +1,5 @@
 import React from "react";
 import './main.css';
-import './main.css.map';
 
 function Forum(){
 return(
