@@ -50,7 +50,7 @@ a {
     color: inherit;
 } */
 .offcanvas-header img {
-    width: 120px;
+    width: 140px;
 }
 
 nav {
@@ -127,13 +127,11 @@ nav ul li a {
 }
 
 .header-content {
-    margin-left: 120px;
     padding-top: 69px;
-}
+}rj19sn6942
 
 .header-content h1 {
     width: 608px;
-    height: 192px;
     font-family: var(--font2);
     font-style: normal;
     font-weight: 400;
@@ -216,8 +214,6 @@ nav ul li a {
 }
 
 .sec-1-card {
-    height: 326px;
-    width: 384px;
     border-radius: 32px;
     padding: 60px 36px 60px 36px;
     border-radius: 32px;
@@ -262,7 +258,7 @@ nav ul li a {
 
 .sec-1-card:hover {
     background-color: #F4F0EC;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .section2 {
@@ -274,8 +270,6 @@ nav ul li a {
 }
 
 .sec2-content h1 {
-    width: 482px;
-    height: 138px;
     font-family: var(--font2);
     font-style: normal;
     font-weight: 400;
@@ -286,8 +280,6 @@ nav ul li a {
 }
 
 .sec2-content p {
-    width: 510px;
-    height: 128px;
     font-family: var(--font1);
     font-style: normal;
     font-weight: 400;
@@ -395,17 +387,13 @@ nav ul li a {
 }
 
 .sec3-card {
-    height: 278px;
-    width: 349px;
     border-radius: 32px;
     padding: 32px 18px 50px 34px;
     background-color: #FFFFFF;
-    margin: 0px auto;
+    margin: 0px 15px;
 }
 
 .sec3-card h2 {
-    width: 135px;
-    height: 33px;
     font-family: var(--font2);
     font-style: normal;
     font-weight: 400;
@@ -433,8 +421,6 @@ nav ul li a {
 }
 
 .sec3-card p {
-    width: 297px;
-    height: 87px;
     font-family: var(--font1);
     font-style: normal;
     font-weight: 400;
@@ -574,7 +560,6 @@ nav ul li a {
 }
 
 .border-right {
-    width: 100%;
     height: 196px;
     border-right: 1px solid #CDA274;
 }
@@ -612,8 +597,6 @@ nav ul li a {
 }
 
 .sec7-card {
-    width: 100;
-    height: 487px;
     background: #FFFFFF;
     border-radius: 32px;
     padding: 16px 16px;
@@ -632,8 +615,6 @@ nav ul li a {
 }
 
 .sec7-card h2 {
-    width: 323px;
-    height: 66px;
     font-family: var(--font2);
     font-style: normal;
     font-weight: 400;
@@ -686,8 +667,6 @@ nav ul li a {
 }
 
 .section8 h1 {
-    width: 689px;
-    height: 66px;
     font-family: var(--font2);
     font-style: normal;
     font-weight: 400;
@@ -701,14 +680,13 @@ nav ul li a {
 
 .section8 h2 {
     margin: auto;
-    width: 379px;
-    height: 35px;
     font-family: var(--font1);
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 35px;
     color: #FFFFFF;
+    text-align: center;
     margin-bottom: 39px;
 }
 
@@ -813,7 +791,6 @@ footer ul li:hover a::after {
 }
 
 .footer-4 h3 {
-    width: 347px;
     height: 32px;
     font-family: var(--font1);
     font-style: normal;
@@ -823,9 +800,11 @@ footer ul li:hover a::after {
     color: var(--bg-main-color1);
     margin-bottom: 24px;
 }
+.footer-4 a{
+    color: var(--bg-main-color1);
+}
 
 .footer-4 span {
-    width: 347px;
     height: 32px;
     font-family: var(--font1);
     font-style: normal;
@@ -848,6 +827,9 @@ footer ul li:hover a::after {
     color: var(--bg-main-color1);
     margin-top: 40px;
     margin-bottom: 48px;
+}
+.copyright-section a{
+    color: var(--bg-main-color2);
 }
 
 /*-----------about css-----------*/
@@ -903,8 +885,6 @@ footer ul li:hover a::after {
 }
 
 .sec1-about-content h1 {
-    width: 482px;
-    height: 69px;
     font-family: var(--font2);
     font-style: normal;
     font-weight: 400;
@@ -915,8 +895,6 @@ footer ul li:hover a::after {
 }
 
 .sec1-about-content p {
-    width: 458px;
-    height: 128px;
     font-family: var(--font1);
     font-style: normal;
     font-weight: 400;
@@ -959,8 +937,6 @@ footer ul li:hover a::after {
 }
 
 .section3-about h1 {
-    width: 511px;
-    height: 66px;
     font-family: var(--font2);
     font-style: normal;
     font-weight: 400;
@@ -973,8 +949,7 @@ footer ul li:hover a::after {
 }
 
 .section3-about p {
-    width: 657px;
-    height: 119px;
+    max-width: 657px;
     font-family: var(--font1);
     font-style: normal;
     font-weight: 400;
@@ -991,8 +966,6 @@ footer ul li:hover a::after {
 }
 
 .section3-about h2 {
-    width: 143px;
-    height: 33px;
     font-family: var(--font2);
     font-style: normal;
     font-weight: 400;
@@ -1006,8 +979,6 @@ footer ul li:hover a::after {
 
 .section3-about span {
     display: block;
-    width: 118px;
-    height: 26px;
     font-family: var(--font1);
     font-style: normal;
     font-weight: 400;
@@ -1029,8 +1000,7 @@ footer ul li:hover a::after {
 }
 
 .section5-about h1 {
-    width: 633px;
-    height: 132px;
+    min-width: 633px;
     font-family: var(--font2);
     font-style: normal;
     font-weight: 400;
@@ -1061,8 +1031,7 @@ footer ul li:hover a::after {
 }
 
 .container-about-6 h1 {
-    width: 847px;
-    height: 82px;
+    max-width: 871px;
     font-family: var(--font2);
     font-style: normal;
     font-weight: 400;
@@ -1105,16 +1074,17 @@ footer ul li:hover a::after {
 }
 
 .section2-services p {
-    width: 769px;
-    height: 119px;
+    max-width: 769px;
     font-family: var(--font1);
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 32px;
     text-align: center;
+
     color: var(--bg-main-color1);
     margin: auto;
+    margin-bottom: 45px;
 }
 
 .sec2-services-container {
@@ -1148,7 +1118,7 @@ footer ul li:hover a::after {
 }
 
 .sec2-services-content p {
-    width: 470px;
+    max-width: 470px;
     height: 119px;
     font-family: var(--font1);
     font-style: normal;
@@ -1171,8 +1141,6 @@ footer ul li:hover a::after {
 }
 
 .sec2-services-content2 h2 {
-    width: 511px;
-    height: 66px;
     font-family: var(--font2);
     font-style: normal;
     font-weight: 400;
@@ -1184,8 +1152,7 @@ footer ul li:hover a::after {
 }
 
 .sec2-services-content2 p {
-    width: 470px;
-    height: 119px;
+    max-width: 470px;
     font-family: var(--font1);
     font-style: normal;
     font-weight: 400;
@@ -1359,7 +1326,6 @@ footer ul li:hover a::after {
 
 .section1-contact h1 {
     width: 633px;
-    height: 132px;
     font-family: var(--font2);
     font-style: normal;
     font-weight: 400;

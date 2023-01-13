@@ -17,7 +17,7 @@ function Counter(){
                     <p>Years Of Experiance</p>
                 </div>
                 <div className="col-md-6 col-lg-3 border-right">
-                    <div className="d-flex justify-content-center">
+                    <div className="d-flex justify-content-center ">
                         <h1 className="count">6</h1>
                         <h1>K</h1>
                     </div>

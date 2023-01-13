@@ -10,8 +10,8 @@ function ServicesMain(){
         <div class="container sec2-services-container">
             <h1>How We Work</h1>
             <p>
-                The world needs innovators and problem solvers who turn challenges into greater
-                opportunities about transformative trends challenging the status.
+            The world needs innovators and problem solvers who turn challenges into greater
+opportunities about transformative trends challenging the status.
             </p>
             <div class="row margin-104">
                 <div class="col-md-6 col-lg-6 sm-none">

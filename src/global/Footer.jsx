@@ -55,8 +55,8 @@ function Footer() {
                                 <p>
                                     4517 Washington Ave. Manchester, Kentucky 39495
                                 </p>
-                                <h3>info@interior.com</h3>
-                                <span>+91 987 654 321</span>
+                                <h3><a href="mailto:info@microclick.com">info@microclick.com</a></h3>
+                                <span><a href="tel:">+91 987 654 321</a></span>
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ function Footer() {
             </footer>
             <section class="container-fluid copyright-section">
                 <div class="container">
-                    <h1>Copyright © 2022 interior | Designed & Developed by Team Techish</h1>
+                    <h1>Copyright © 2022 interior | Designed & Developed by <a href="https://microclick.in/">MicroClick</a></h1>
                 </div>
             </section>
         </>

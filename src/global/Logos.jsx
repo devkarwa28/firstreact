@@ -93,21 +93,6 @@ function Logos(){
                 </div>
             </div>
             </Slider>
-                {/* <div className="col lg-center">
-                    <img src={img1} alt=""/>
-                </div>
-                <div className="col lg-center">
-                    <img src={img2} alt=""/>
-                </div>
-                <div className="col lg-center">
-                    <img src={img1} alt=""/>
-                </div>
-                <div className="col lg-center">
-                    <img src={img2} alt=""/>
-                </div>
-                <div className="col lg-center">
-                    <img src={img1} alt=""/>
-                </div> */}
             </div>
         
         </div>
