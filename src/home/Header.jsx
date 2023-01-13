@@ -27,7 +27,7 @@ function Header() {
                 <div className='container'>
                 <div className="header-content">
                     <h1 className="typewriter">
-                        <span data-text="">Let's Create Your Dream Interior</span>
+                        Let's Create Your Dream Interior
                     </h1>
                     <p>
                         The world needs innovators and problem solvers who turn

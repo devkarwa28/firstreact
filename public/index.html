@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon-32x32.png" />
     <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
@@ -45,4 +46,48 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script>
+    // typewriter
+    var span = document.querySelector(".typewriter span");
+    var textArr = span.getAttribute("data-text").split(", ");
+    var maxTextIndex = textArr.length;
+
+    var sPerChar = 0.15;
+    var sBetweenWord = 1.5;
+    var textIndex = 0;
+
+    typing(textIndex, textArr[textIndex]);
+
+    function typing(textIndex, text) {
+        var charIndex = 0;
+        var maxCharIndex = text.length - 1;
+
+        var typeInterval = setInterval(function () {
+            span.innerHTML += text[charIndex];
+            if (charIndex == maxCharIndex) {
+                clearInterval(typeInterval);
+                setTimeout(function () { deleting(textIndex, text) }, sBetweenWord * 1000);
+
+            } else {
+                charIndex += 1;
+            }
+        }, sPerChar * 1000);
+    }
+
+    function deleting(textIndex, text) {
+        var minCharIndex = 0;
+        var charIndex = text.length - 1;
+
+        var typeInterval = setInterval(function () {
+            span.innerHTML = text.substr(0, charIndex);
+            if (charIndex == minCharIndex) {
+                clearInterval(typeInterval);
+                textIndex + 1 == maxTextIndex ? textIndex = 0 : textIndex += 1;
+                setTimeout(function () { typing(textIndex, textArr[textIndex]) }, sBetweenWord * 1000);
+            } else {
+                charIndex -= 1;
+            }
+        }, sPerChar * 1000);
+    }
+  </script>
 </html>
