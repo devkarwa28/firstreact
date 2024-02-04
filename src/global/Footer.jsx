@@ -64,7 +64,7 @@ function Footer() {
             </footer>
             <section class="container-fluid copyright-section">
                 <div class="container">
-                    <h1>Copyright © 2022 interior | Designed & Developed by <a href="https://microclick.in/">MicroClick</a></h1>
+                    <h1>Copyright © 2022 interior | Designed & Developed by <a href="https://microclick.in/">Dev Karwa</a></h1>
                 </div>
             </section>
         </>
