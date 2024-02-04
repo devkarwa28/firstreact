@@ -20,7 +20,7 @@ function Footer() {
                                     <a href="" className="hover-translate-f"><i className="fa-brands fa-facebook-f"></i></a>
                                     <a href="" className="hover-translate-t"><i className="fa-brands fa-twitter"></i></a>
                                     <a href="" className="hover-translate-l"><i className="fa-brands fa-linkedin-in"></i></a>
-                                    <a href="" className="hover-translate-i"><i className="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.instagram.com/dev_maheswari28/" className="hover-translate-i"><i className="fa-brands fa-instagram"></i></a>
                                 </div>
                             </div>
 
